@@ -1,0 +1,40 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="store.js"></script>
+</head>
+
+<body class="page">
+
+    <h2>Cart Page</h2>
+
+    <p id="cartEmpty" style="display:none;">Your cart is empty. Add books from the catalogue.</p>
+
+    <table border="1">
+        <tr>
+            <th>Cover</th>
+            <th>Book Name</th>
+            <th>Price (INR)</th>
+            <th>Quantity</th>
+            <th>Amount</th>
+            <th>Action</th>
+        </tr>
+
+        <tbody id="cartBody"></tbody>
+
+        <tr>
+            <td colspan="4"><b>Total Amount</b></td>
+            <td colspan="2"><b id="cartTotal">₹0</b></td>
+        </tr>
+    </table>
+
+    <br>
+    <button onclick="checkout()">Checkout</button>
+    <button onclick="clearCart()">Clear Cart</button>
+
+    <script>
+        renderCart();
+    </script>
+
+</body>
+</html>

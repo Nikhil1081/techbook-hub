@@ -1,0 +1,85 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="store.js"></script>
+</head>
+
+<body class="page">
+
+    <h2>Book Catalogue - ECE</h2>
+
+    <table border="1">
+        <tr>
+            <th>Cover</th>
+            <th>Details</th>
+            <th>Price</th>
+            <th>Cart</th>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/8053759-M.jpg" width="90" height="120" alt="Microelectronic Circuits" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Microelectronic Circuits<br>
+                Author: Sedra / Smith<br>
+                Publisher: Oxford University Press</td>
+            <td>₹579</td>
+            <td><button data-id="ece-micro" data-title="Microelectronic Circuits" data-dept="ECE" data-price-inr="579" data-cover-url="https://covers.openlibrary.org/b/id/8053759-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/4383449-M.jpg" width="90" height="120" alt="Electronic Devices and Circuit Theory" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Electronic Devices and Circuit Theory<br>
+                Author: Boylestad / Nashelsky<br>
+                Publisher: Pearson</td>
+            <td>₹499</td>
+            <td><button data-id="ece-edct" data-title="Electronic Devices and Circuit Theory" data-dept="ECE" data-price-inr="499" data-cover-url="https://covers.openlibrary.org/b/id/4383449-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/10649545-M.jpg" width="90" height="120" alt="Digital Design" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Digital Design<br>
+                Author: M. Morris Mano<br>
+                Publisher: Pearson</td>
+            <td>₹399</td>
+            <td><button data-id="ece-dd" data-title="Digital Design" data-dept="ECE" data-price-inr="399" data-cover-url="https://covers.openlibrary.org/b/id/10649545-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/14380640-M.jpg" width="90" height="120" alt="Signals and Systems" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Signals and Systems<br>
+                Author: Oppenheim / Willsky<br>
+                Publisher: Prentice Hall</td>
+            <td>₹649</td>
+            <td><button data-id="ece-ss" data-title="Signals and Systems" data-dept="ECE" data-price-inr="649" data-cover-url="https://covers.openlibrary.org/b/id/14380640-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/1113539-M.jpg" width="90" height="120" alt="Digital Signal Processing" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Digital Signal Processing<br>
+                Author: Proakis / Manolakis<br>
+                Publisher: Pearson</td>
+            <td>₹699</td>
+            <td><button data-id="ece-dsp" data-title="Digital Signal Processing" data-dept="ECE" data-price-inr="699" data-cover-url="https://covers.openlibrary.org/b/id/1113539-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/3946759-M.jpg" width="90" height="120" alt="Communication Systems" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Communication Systems<br>
+                Author: Simon Haykin<br>
+                Publisher: Wiley</td>
+            <td>₹549</td>
+            <td><button data-id="ece-comms" data-title="Communication Systems" data-dept="ECE" data-price-inr="549" data-cover-url="https://covers.openlibrary.org/b/id/3946759-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/304864-M.jpg" width="90" height="120" alt="Control Systems Engineering" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Control Systems Engineering<br>
+                Author: Norman S. Nise<br>
+                Publisher: Wiley</td>
+            <td>₹599</td>
+            <td><button data-id="ece-control" data-title="Control Systems Engineering" data-dept="ECE" data-price-inr="599" data-cover-url="https://covers.openlibrary.org/b/id/304864-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

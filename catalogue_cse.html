@@ -1,0 +1,67 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="store.js"></script>
+</head>
+
+<body class="page">
+
+    <h2>Book Catalogue - CSE</h2>
+
+    <table border="1">
+        <tr>
+            <th>Cover</th>
+            <th>Details</th>
+            <th>Price</th>
+            <th>Cart</th>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/13660534-M.jpg" width="90" height="120" alt="Java: The Complete Reference" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Java Programming<br>
+                Author: Herbert Schildt<br>
+                Publisher: McGraw Hill</td>
+            <td>₹499</td>
+            <td><button data-id="cse-java" data-title="Java Programming" data-dept="CSE" data-price-inr="499" data-cover-url="https://covers.openlibrary.org/b/id/13660534-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/13200062-M.jpg" width="90" height="120" alt="Database System Concepts" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Database System Concepts (DBMS)<br>
+                Author: Korth<br>
+                Publisher: Pearson</td>
+            <td>₹459</td>
+            <td><button data-id="cse-dbms" data-title="Database System Concepts (DBMS)" data-dept="CSE" data-price-inr="459" data-cover-url="https://covers.openlibrary.org/b/id/13200062-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/8635723-M.jpg" width="90" height="120" alt="Data Structures and Algorithm Analysis in Java" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Data Structures & Algorithms<br>
+                Author: Mark Allen Weiss<br>
+                Publisher: Pearson</td>
+            <td>₹549</td>
+            <td><button data-id="cse-dsa" data-title="Data Structures & Algorithms" data-dept="CSE" data-price-inr="549" data-cover-url="https://covers.openlibrary.org/b/id/8635723-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/14705254-M.jpg" width="90" height="120" alt="Operating System Concepts" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Operating Systems<br>
+                Author: Silberschatz / Galvin / Gagne<br>
+                Publisher: Wiley</td>
+            <td>₹599</td>
+            <td><button data-id="cse-os" data-title="Operating Systems" data-dept="CSE" data-price-inr="599" data-cover-url="https://covers.openlibrary.org/b/id/14705254-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/9378629-M.jpg" width="90" height="120" alt="Computer Networks" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Computer Networks<br>
+                Author: Andrew S. Tanenbaum<br>
+                Publisher: Pearson</td>
+            <td>₹519</td>
+            <td><button data-id="cse-cn" data-title="Computer Networks" data-dept="CSE" data-price-inr="519" data-cover-url="https://covers.openlibrary.org/b/id/9378629-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

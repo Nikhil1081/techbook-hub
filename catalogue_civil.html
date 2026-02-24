@@ -1,0 +1,67 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="store.js"></script>
+</head>
+
+<body class="page">
+
+    <h2>Book Catalogue - CIVIL</h2>
+
+    <table border="1">
+        <tr>
+            <th>Cover</th>
+            <th>Details</th>
+            <th>Price</th>
+            <th>Cart</th>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/13786555-M.jpg" width="90" height="120" alt="Concrete Technology" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Concrete Technology<br>
+                Author: M. S. Shetty<br>
+                Publisher: S. Chand</td>
+            <td>₹399</td>
+            <td><button data-id="civil-concrete" data-title="Concrete Technology" data-dept="CIVIL" data-price-inr="399" data-cover-url="https://covers.openlibrary.org/b/id/13786555-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/5250614-M.jpg" width="90" height="120" alt="Surveying" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Surveying<br>
+                Author: B. C. Punmia<br>
+                Publisher: Laxmi Publications</td>
+            <td>₹299</td>
+            <td><button data-id="civil-survey" data-title="Surveying" data-dept="CIVIL" data-price-inr="299" data-cover-url="https://covers.openlibrary.org/b/id/5250614-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/8625449-M.jpg" width="90" height="120" alt="Building Materials" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Building Materials<br>
+                Author: S. K. Duggal<br>
+                Publisher: New Age International</td>
+            <td>₹349</td>
+            <td><button data-id="civil-bm" data-title="Building Materials" data-dept="CIVIL" data-price-inr="349" data-cover-url="https://covers.openlibrary.org/b/id/8625449-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/5250629-M.jpg" width="90" height="120" alt="A Textbook of Strength of Materials" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Strength of Materials<br>
+                Author: R. K. Bansal<br>
+                Publisher: Laxmi Publications</td>
+            <td>₹279</td>
+            <td><button data-id="civil-som" data-title="Strength of Materials" data-dept="CIVIL" data-price-inr="279" data-cover-url="https://covers.openlibrary.org/b/id/5250629-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/8353683-M.jpg" width="90" height="120" alt="Structural Analysis" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Structural Analysis<br>
+                Author: R. C. Hibbeler<br>
+                Publisher: Pearson</td>
+            <td>₹649</td>
+            <td><button data-id="civil-sa" data-title="Structural Analysis" data-dept="CIVIL" data-price-inr="649" data-cover-url="https://covers.openlibrary.org/b/id/8353683-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

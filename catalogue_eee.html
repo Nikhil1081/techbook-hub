@@ -1,0 +1,67 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="store.js"></script>
+</head>
+
+<body class="page">
+
+    <h2>Book Catalogue - EEE</h2>
+
+    <table border="1">
+        <tr>
+            <th>Cover</th>
+            <th>Details</th>
+            <th>Price</th>
+            <th>Cart</th>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/8760435-M.jpg" width="90" height="120" alt="Modern Power System Analysis" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Modern Power System Analysis<br>
+                Author: D. P. Kothari / I. J. Nagrath<br>
+                Publisher: Tata McGraw-Hill</td>
+            <td>₹449</td>
+            <td><button data-id="eee-psa" data-title="Modern Power System Analysis" data-dept="EEE" data-price-inr="449" data-cover-url="https://covers.openlibrary.org/b/id/8760435-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/85999-M.jpg" width="90" height="120" alt="Power Electronics" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Power Electronics<br>
+                Author: M. H. Rashid<br>
+                Publisher: Pearson</td>
+            <td>₹649</td>
+            <td><button data-id="eee-pe" data-title="Power Electronics" data-dept="EEE" data-price-inr="649" data-cover-url="https://covers.openlibrary.org/b/id/85999-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/13204665-M.jpg" width="90" height="120" alt="Electric Machinery Fundamentals" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Electric Machinery Fundamentals<br>
+                Author: Stephen J. Chapman<br>
+                Publisher: McGraw Hill</td>
+            <td>₹599</td>
+            <td><button data-id="eee-mach" data-title="Electric Machinery Fundamentals" data-dept="EEE" data-price-inr="599" data-cover-url="https://covers.openlibrary.org/b/id/13204665-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/5249921-M.jpg" width="90" height="120" alt="Principles of Power System" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Principles of Power System<br>
+                Author: V. K. Mehta<br>
+                Publisher: S. Chand</td>
+            <td>₹299</td>
+            <td><button data-id="eee-mehta" data-title="Principles of Power System" data-dept="EEE" data-price-inr="299" data-cover-url="https://covers.openlibrary.org/b/id/5249921-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img class="book-cover" src="https://covers.openlibrary.org/b/id/10496778-M.jpg" width="90" height="120" alt="Electric Machines" onerror="this.onerror=null;this.src='https://placehold.co/90x120/png?text=Cover';"></td>
+            <td>Book: Electric Machines<br>
+                Author: D. P. Kothari / I. J. Nagrath<br>
+                Publisher: Tata McGraw-Hill</td>
+            <td>₹349</td>
+            <td><button data-id="eee-em" data-title="Electric Machines" data-dept="EEE" data-price-inr="349" data-cover-url="https://covers.openlibrary.org/b/id/10496778-M.jpg" onclick="addToCartFromButton(this)">Add to Cart</button></td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
